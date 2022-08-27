@@ -1,0 +1,72 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  text-align: center;
+  letter-spacing: 2px;
+  padding: 30px;
+  font-size: 40px;
+}
+.container_global {
+  width: 70%;
+  max-width: 800px;
+  min-width: 400px;
+  margin: 0 auto;
+  height: auto;
+  /* background: blue; */
+}
+
+.question_bloc {
+  padding: 15px 25px 25px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  /* background: yellow; */
+}
+
+.question_bloc h4 {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.question_bloc label {
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.question_bloc inpu[type="radio"] {
+  transform: scale(1.8);
+  margin: 10px;
+}
+
+.resultats {
+  padding: 25px;
+  margin: 10px 0 70px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+.resultats h2 {
+  text-align: center;
+}
+.aide {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.note {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.analyse {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
